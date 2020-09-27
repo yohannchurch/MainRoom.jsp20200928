@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* MainRoom.jsp、hi_low.jsp、Ecard.jsp共通 */
+
+/* タイトル、送信ボタン真ん中へ、勝敗の文字 */
+div.h{
+	text-align:center;
+}
+
+/* higiとlowの送信ボタン メイン画面のゲーム選択ボタン*/
+input.high{
+	width: 150px;
+    height: 50px;
+
+}
+
+/* 選択画面へ戻る 位置調整 high_low.jsp 上、右、下、左*/
+div.room{
+	margin:100px 0 0 0;
+}
+
+/* ゲーム選択の文字大きさ */
+div.game label{
+	font-size:30px;
+	line-height:30px;
+}
+
+/* カードの位置、真ん中、下 Ecard.jsp */
+div.card{
+	margin:80px 0 0 0;
+	text-align:center;
+}
+
+/* カードの文字大きさ Ecard.jsp*/
+/* カードの形を作る、外幅、うち幅は、文字サイズに調整、１本線で囲む*/
+div.card label{
+	font-size:30px;
+	line-height:30px;
+
+	margin:  1em;
+	padding: 1em;
+	border: 1px solid;
+}
+
+/* ラジオボタンの位置を調整 */
+/* div.card input {
+
+	margin: 0 0 150px 0px;
+	vertical-align: middle;
+} */
+
+
+/* 選択画面へ戻る 位置調整 Ecard.jsp、Chromブラウザ変えると注意 9/27カード作ってから無駄コードになってるかも */
+div.mainRoom{
+	margin:-20px 10px 0 0;
+}
+
+/* 所持金の位置を調整、MainRoom.jsp */
+div.money{
+	margin: 100px 0 10px 10px;
+}
+
+
+
+
+
+
+
+
+
